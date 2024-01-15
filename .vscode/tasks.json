@@ -1,0 +1,67 @@
+{
+  "version": "2.0.0",
+  "command": "bash",
+  "args": [
+    "-c"
+  ],
+  "options": {
+    "cwd": "${workspaceRoot}",
+    "env": {
+      "IDF_PATH": "${env.IDF_PATH}",
+      "PATH": "${env.PATH}:${env.IDF_PATH}/../xtensa-lx106-elf/bin"
+    }
+  },
+  "tasks": [
+    {
+      "label": "build app",
+      "type": "shell",
+      "args": [
+        "-c",
+        "make app"
+      ],
+      "problemMatcher": {
+        "owner": "cpp",
+        "fileLocation": "absolute",
+        "pattern": {
+          "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+          "file": 1,
+          "line": 2,
+          "column": 3,
+          "severity": 4,
+          "message": 5
+        }
+      },
+      "group": {
+        "_id": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "clean app",
+      "type": "shell",
+      "args": [
+        "-c",
+        "make app-clean"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "monitor",
+      "type": "shell",
+      "args": [
+        "-c",
+        "make monitor"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "flash app",
+      "type": "shell",
+      "args": [
+        "-c",
+        "make app-flash"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}

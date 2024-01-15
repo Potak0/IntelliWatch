@@ -1,0 +1,97 @@
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/D_/ESP_Project/IntelliWatch/main/ulp/ulp_main.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/D_/ESP_Project/IntelliWatch/main/ulp/ulp_main.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/D_/ESP_Project/IntelliWatch/main/ulp/ulp_main.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/D_/Espressif/442/frameworks/esp-idf-v4.4.2/components/ulp/ulp_riscv/start.S.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/D_/Espressif/442/frameworks/esp-idf-v4.4.2/components/ulp/ulp_riscv/start.S.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/D_/Espressif/442/frameworks/esp-idf-v4.4.2/components/ulp/ulp_riscv/ulp_riscv_utils.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/D_/Espressif/442/frameworks/esp-idf-v4.4.2/components/ulp/ulp_riscv/ulp_riscv_utils.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/D_/Espressif/442/frameworks/esp-idf-v4.4.2/components/ulp/ulp_riscv/ulp_riscv_utils.c.obj
+ .text.ulp_riscv_delay_cycles
+                0x0000000000000000       0x10 CMakeFiles/ulp_main.dir/D_/Espressif/442/frameworks/esp-idf-v4.4.2/components/ulp/ulp_riscv/ulp_riscv_utils.c.obj
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ram              0x0000000000000000 0x0000000000000200 rw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD CMakeFiles/ulp_main.dir/D_/ESP_Project/IntelliWatch/main/ulp/ulp_main.c.obj
+LOAD CMakeFiles/ulp_main.dir/D_/Espressif/442/frameworks/esp-idf-v4.4.2/components/ulp/ulp_riscv/start.S.obj
+LOAD CMakeFiles/ulp_main.dir/D_/Espressif/442/frameworks/esp-idf-v4.4.2/components/ulp/ulp_riscv/ulp_riscv_utils.c.obj
+LOAD d:/espressif/442/tools/riscv32-esp-elf/esp-2021r2-patch3-8.4.0/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/8.4.0/rv32imc/ilp32\libgcc.a
+LOAD d:/espressif/442/tools/riscv32-esp-elf/esp-2021r2-patch3-8.4.0/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/8.4.0/../../../../riscv32-esp-elf/lib/rv32imc/ilp32\libc_nano.a
+LOAD d:/espressif/442/tools/riscv32-esp-elf/esp-2021r2-patch3-8.4.0/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/8.4.0/rv32imc/ilp32\libgcc.a
+START GROUP
+LOAD d:/espressif/442/tools/riscv32-esp-elf/esp-2021r2-patch3-8.4.0/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/8.4.0/rv32imc/ilp32\libgcc.a
+LOAD d:/espressif/442/tools/riscv32-esp-elf/esp-2021r2-patch3-8.4.0/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/8.4.0/../../../../riscv32-esp-elf/lib/rv32imc/ilp32\libc_nano.a
+LOAD d:/espressif/442/tools/riscv32-esp-elf/esp-2021r2-patch3-8.4.0/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/8.4.0/../../../../riscv32-esp-elf/lib/rv32imc/ilp32\libnosys.a
+END GROUP
+START GROUP
+LOAD d:/espressif/442/tools/riscv32-esp-elf/esp-2021r2-patch3-8.4.0/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/8.4.0/rv32imc/ilp32\libgcc.a
+LOAD d:/espressif/442/tools/riscv32-esp-elf/esp-2021r2-patch3-8.4.0/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/8.4.0/../../../../riscv32-esp-elf/lib/rv32imc/ilp32\libc_nano.a
+LOAD d:/espressif/442/tools/riscv32-esp-elf/esp-2021r2-patch3-8.4.0/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/8.4.0/../../../../riscv32-esp-elf/lib/rv32imc/ilp32\libnosys.a
+END GROUP
+                0x0000000000000000                . = ORIGIN (ram)
+
+.text           0x0000000000000000       0xb8
+ *start.S.obj(.text.vectors)
+ .text.vectors  0x0000000000000000       0x1e CMakeFiles/ulp_main.dir/D_/Espressif/442/frameworks/esp-idf-v4.4.2/components/ulp/ulp_riscv/start.S.obj
+                0x0000000000000000                reset_vector
+                0x0000000000000010                irq_vector
+ *(.text)
+ .text          0x000000000000001e        0xc CMakeFiles/ulp_main.dir/D_/Espressif/442/frameworks/esp-idf-v4.4.2/components/ulp/ulp_riscv/start.S.obj
+ *(.text*)
+ .text.startup.main
+                0x000000000000002a       0x38 CMakeFiles/ulp_main.dir/D_/ESP_Project/IntelliWatch/main/ulp/ulp_main.c.obj
+                0x000000000000002a                main
+ .text.ulp_riscv_rescue_from_monitor
+                0x0000000000000062       0x14 CMakeFiles/ulp_main.dir/D_/Espressif/442/frameworks/esp-idf-v4.4.2/components/ulp/ulp_riscv/ulp_riscv_utils.c.obj
+                0x0000000000000062                ulp_riscv_rescue_from_monitor
+ .text.ulp_riscv_wakeup_main_processor
+                0x0000000000000076        0xc CMakeFiles/ulp_main.dir/D_/Espressif/442/frameworks/esp-idf-v4.4.2/components/ulp/ulp_riscv/ulp_riscv_utils.c.obj
+                0x0000000000000076                ulp_riscv_wakeup_main_processor
+ .text.ulp_riscv_shutdown
+                0x0000000000000082       0x36 CMakeFiles/ulp_main.dir/D_/Espressif/442/frameworks/esp-idf-v4.4.2/components/ulp/ulp_riscv/ulp_riscv_utils.c.obj
+                0x0000000000000082                ulp_riscv_shutdown
+
+.rela.dyn       0x00000000000000b8        0x0
+ .rela.text     0x00000000000000b8        0x0 CMakeFiles/ulp_main.dir/D_/ESP_Project/IntelliWatch/main/ulp/ulp_main.c.obj
+
+.rodata
+ *(.rodata)
+ *(.rodata*)
+
+.data
+ *(.data)
+ *(.data*)
+ *(.sdata)
+ *(.sdata*)
+
+.bss            0x00000000000000b8        0x1
+ *(.bss)
+ *(.bss*)
+ *(.sbss)
+ *(.sbss*)
+ .sbss.gpio_level_1
+                0x00000000000000b8        0x1 CMakeFiles/ulp_main.dir/D_/ESP_Project/IntelliWatch/main/ulp/ulp_main.c.obj
+                0x0000000000000200                __stack_top = (ORIGIN (ram) + LENGTH (ram))
+OUTPUT(ulp_main elf32-littleriscv)
+
+.comment        0x0000000000000000       0x2c
+ .comment       0x0000000000000000       0x2c CMakeFiles/ulp_main.dir/D_/ESP_Project/IntelliWatch/main/ulp/ulp_main.c.obj
+                                         0x2d (size before relaxing)
+ .comment       0x000000000000002c       0x2d CMakeFiles/ulp_main.dir/D_/Espressif/442/frameworks/esp-idf-v4.4.2/components/ulp/ulp_riscv/ulp_riscv_utils.c.obj
+
+.riscv.attributes
+                0x0000000000000000       0x24
+ .riscv.attributes
+                0x0000000000000000       0x24 CMakeFiles/ulp_main.dir/D_/ESP_Project/IntelliWatch/main/ulp/ulp_main.c.obj
+ .riscv.attributes
+                0x0000000000000024       0x24 CMakeFiles/ulp_main.dir/D_/Espressif/442/frameworks/esp-idf-v4.4.2/components/ulp/ulp_riscv/start.S.obj
+ .riscv.attributes
+                0x0000000000000048       0x24 CMakeFiles/ulp_main.dir/D_/Espressif/442/frameworks/esp-idf-v4.4.2/components/ulp/ulp_riscv/ulp_riscv_utils.c.obj

@@ -1,0 +1,4 @@
+idf_component_register(SRCS "hikari"
+                            
+                    INCLUDE_DIRS "include"
+                    REQUIRES   driver lvgl_esp32_drivers)

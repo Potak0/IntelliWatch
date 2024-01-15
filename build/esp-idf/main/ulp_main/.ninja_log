@@ -1,0 +1,18 @@
+# ninja log v5
+1	90	7270015585386160	esp32s3.ulp.riscv.ld	164dbc0f29040071
+1	90	7270015585386160	D:/ESP_Project/IntelliWatch/build/esp-idf/main/ulp_main/esp32s3.ulp.riscv.ld	164dbc0f29040071
+91	130	7270015585386160	D:/Espressif/442/frameworks/esp-idf-v4.4.2/components/ulp/ulp_riscv/ulp_riscv_utils.c	7a373d2dd97d1fb9
+97	133	7270015585386160	D:/Espressif/442/frameworks/esp-idf-v4.4.2/components/ulp/ulp_riscv/start.S	7a373d2dd97d1fb9
+99	134	7270015585386160	D:/ESP_Project/IntelliWatch/main/ulp/ulp_main.c	7a373d2dd97d1fb9
+140	219	7270015586675666	CMakeFiles/ulp_main.dir/D_/Espressif/442/frameworks/esp-idf-v4.4.2/components/ulp/ulp_riscv/start.S.obj	212b21db685f6c81
+144	321	7270015587705254	CMakeFiles/ulp_main.dir/D_/Espressif/442/frameworks/esp-idf-v4.4.2/components/ulp/ulp_riscv/ulp_riscv_utils.c.obj	ecd5d16ff1a0d272
+135	371	7270015588205262	CMakeFiles/ulp_main.dir/D_/ESP_Project/IntelliWatch/main/ulp/ulp_main.c.obj	c5236e77059a8f86
+372	504	7270015589305253	ulp_main	90671d5ee3911efb
+505	548	7270015589985249	ulp_main.bin	74f83b944965ec48
+505	548	7270015589985249	D:/ESP_Project/IntelliWatch/build/esp-idf/main/ulp_main/ulp_main.bin	74f83b944965ec48
+511	549	7270015590005270	ulp_main.sym	8209647b988617fc
+511	549	7270015590005270	D:/ESP_Project/IntelliWatch/build/esp-idf/main/ulp_main/ulp_main.sym	8209647b988617fc
+549	735	7270015591095269	ulp_main.ld	1234454529df391a
+549	735	7270015591095269	ulp_main.h	1234454529df391a
+549	735	7270015591095269	D:/ESP_Project/IntelliWatch/build/esp-idf/main/ulp_main/ulp_main.ld	1234454529df391a
+549	735	7270015591095269	D:/ESP_Project/IntelliWatch/build/esp-idf/main/ulp_main/ulp_main.h	1234454529df391a

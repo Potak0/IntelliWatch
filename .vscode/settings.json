@@ -1,0 +1,36 @@
+{
+    "idf.adapterTargetName": "esp32s3",
+    "idf.flashType": "UART",
+    "idf.port": "/dev/ttyUSB0",
+    "idf.openOcdConfigs": [
+        "board/esp32s3-bridge.cfg"
+    ],
+    "files.associations": {
+        "mpu9250.h": "c",
+        "ahrs.h": "c",
+        "calibrate.h": "c",
+        "esp_lcd_backlight.h": "c",
+        "stdbool.h": "c",
+        "stdint.h": "c",
+        "ak8963.h": "c",
+        "i2c-easy.h": "c",
+        "drv2605.h": "c",
+        "lv_conf.h": "c",
+        "common.h": "c",
+        "random": "c",
+        "nvs_store.h": "c",
+        "string_view": "c",
+        "max30102.h": "c",
+        "watch_ble.h": "c",
+        "stdlib.h": "c",
+        "bh1750_i2c_hal.h": "c",
+        "bq25895.h": "c",
+        "lvgl_spi_conf.h": "c",
+        "drv2605_reg.h": "c",
+        "bq25896.h": "c"
+    },
+    "idf.espIdfPathWin": "D:\\Espressif\\442\\frameworks\\esp-idf-v4.4.2",
+    "idf.toolsPathWin": "D:\\Espressif\\442",
+    "idf.portWin": "COM10",
+    "cmake.configureOnOpen": true
+}

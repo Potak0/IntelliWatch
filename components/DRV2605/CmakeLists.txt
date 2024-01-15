@@ -1,0 +1,4 @@
+idf_component_register(SRCS "DRV2605.c"
+                            "i2c-easy.c"
+                    INCLUDE_DIRS "include"
+                    REQUIRES   driver)
