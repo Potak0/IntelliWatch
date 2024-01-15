@@ -1,7 +1,0 @@
-00000200 B __stack_top
-00000010 T irq_vector
-0000002a T main
-00000000 T reset_vector
-00000062 T ulp_riscv_rescue_from_monitor
-00000082 T ulp_riscv_shutdown
-00000076 T ulp_riscv_wakeup_main_processor
